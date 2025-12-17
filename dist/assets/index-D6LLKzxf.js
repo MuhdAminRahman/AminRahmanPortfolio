@@ -3646,4 +3646,4 @@ void main() {
         gl_FragColor = vec4(color, intensity);
       }
     `}),g=new Ft(c,x);g.scale.setScalar(1.04),t.add(g);let p=0,h=0;function A(b){const R=i.getBoundingClientRect();p=(b.clientX-R.left)/R.width-.5,h=(b.clientY-R.top)/R.height-.5}i.addEventListener("pointermove",A);function S(){const b=i.clientWidth,R=Math.max(220,i.clientHeight);e.setSize(b,R),n.aspect=b/R,n.updateProjectionMatrix()}window.addEventListener("resize",S);function y(){d.rotation.y+=8e-4,m.rotation.y+=.0012,t.rotation.y+=.001+p*.08,t.rotation.x+=5e-4+h*.08,e.render(t,n),requestAnimationFrame(y)}return y(),()=>{i.removeEventListener("pointermove",A),window.removeEventListener("resize",S),e.dispose()}}const Aa=document.getElementById("three-header");let zr;Aa&&(Cf()?zr=Lf():Aa.innerHTML='<img src="./assets/images/three-fallback.jpg" alt="Decorative 3D preview" style="width:100%;height:100%;object-fit:cover">');window.addEventListener("beforeunload",()=>{zr&&zr()});
-//# sourceMappingURL=index-zaE44cmf.js.map
+//# sourceMappingURL=index-D6LLKzxf.js.map
