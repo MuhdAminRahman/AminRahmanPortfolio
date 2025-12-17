@@ -139,5 +139,3 @@ vite.config.ts.timestamp-*
 
 #vitedist
 dist/index.html
-dist/assets/images
-dist/assets/favicon.svg
